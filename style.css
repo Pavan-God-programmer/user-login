@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p,
+h1 {
+  text-align: left;
+  font-variant: small-caps;
+}
+
+button {
+  font-variant: small-caps;
+  padding: 8px 20px;
+  background-color: rgb(0, 255, 221);
+  color: black;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(59, 2, 200);
+  color: white;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+p {
+  padding: 20px;
+  outline: #000000 solid 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
